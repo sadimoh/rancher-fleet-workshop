@@ -83,11 +83,11 @@ targetCustomizations:
       prometheus:
         ingress:
           hosts:
-            - prometheus.central.<IPcentral>.sslip.io
+            - prometheus.central.54.154.183.165.sslip.io
           tls:
             - secretName: prometheus-ingress-tls
               hosts:
-                - prometheus.central.<IPcentral>.sslip.io
+                - prometheus.central.54.154.183.165.sslip.io
       grafana:
         sidecar:
           dashboards:
