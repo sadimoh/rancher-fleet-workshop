@@ -47,11 +47,11 @@ targetCustomizations:
       prometheus:
         ingress:
           hosts:
-            - prometheus.fleet01.<IPfleet01>.sslip.io
+            - prometheus.fleet01.<3.251.97.182>.sslip.io
           tls:
             - secretName: prometheus-ingress-tls
               hosts:
-                - prometheus.fleet01.<IPfleet01>.sslip.io
+                - prometheus.fleet01.<3.251.97.182>.sslip.io
   clusterName: fleet01
 - name: fleet02
   helm:
@@ -59,11 +59,11 @@ targetCustomizations:
       prometheus:
         ingress:
           hosts:
-            - prometheus.fleet02.<IPfleet02>.sslip.io
+            - prometheus.fleet02.<54.217.47.45>.sslip.io
           tls:
             - secretName: prometheus-ingress-tls
               hosts:
-                - prometheus.fleet02.<IPfleet02>.sslip.io
+                - prometheus.fleet02.<54.217.47.45>.sslip.io
   clusterName: fleet02
 - name: fleet03
   helm:
@@ -71,11 +71,11 @@ targetCustomizations:
       prometheus:
         ingress:
           hosts:
-            - prometheus.fleet03.<IPfleet03>.sslip.io
+            - prometheus.fleet03.<3.250.121.216>.sslip.io
           tls:
             - secretName: prometheus-ingress-tls
               hosts:
-                - prometheus.fleet03.<IPfleet03>.sslip.io
+                - prometheus.fleet03.<3.250.121.216>.sslip.io
   clusterName: fleet03
 - name: central
   helm:
